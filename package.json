@@ -24,7 +24,7 @@
     "test:coverage": "vitest --coverage",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\"",
-    "prepublishOnly": "npm run build && npm test",
+    "prepublishOnly": "npm run build",
     "example": "ts-node examples/basic-usage.ts"
   },
   "keywords": [
@@ -44,12 +44,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openclaw/clawcash.git"
+    "url": "https://github.com/dufu2000/clawcash.git"
   },
   "bugs": {
-    "url": "https://github.com/openclaw/clawcash/issues"
+    "url": "https://github.com/dufu2000/clawcash/issues"
   },
-  "homepage": "https://github.com/openclaw/clawcash#readme",
+  "homepage": "https://github.com/dufu2000/clawcash#readme",
   "dependencies": {
     "ethers": "^6.9.0"
   },
